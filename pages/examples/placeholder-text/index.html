@@ -81,6 +81,11 @@
       >
       
       <a
+        class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900 filter-posts"
+        >Posts</a
+      >
+      
+      <a
         class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900 filter-initiatives"
         >Initiatives</a
       >
@@ -204,7 +209,7 @@
 
 
 <script>
-  const allTypes = ["all",  "news","initiatives","donations","",];
+  const allTypes = ["all",  "news","posts","initiatives","donations","",];
   const filter = (event, type) => {
     const isActive = event.target.classList.contains("active");
 
